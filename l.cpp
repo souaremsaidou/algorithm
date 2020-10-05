@@ -1,3 +1,9 @@
+//<source>:13:12: note: Potential leak of memory pointed to by 'tmp'
+//
+//    while (tmp != nullptr) {
+//
+//           ^
+             
 #include <iostream>
 using namespace std;
 
