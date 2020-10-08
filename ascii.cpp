@@ -19,6 +19,8 @@ int main() {
   cin.ignore();
   string T;
   getline(cin, T);
+  //   T = "Z";
+
   transform(T.begin(), T.end(), T.begin(), ::toupper);
 
   for (int i = 0; i < H; i++) {
@@ -33,8 +35,7 @@ int main() {
       } else {
         result += ROW.substr(L * (c - 'A'), L);
       }
-
-      cout << result << endl;
     }
+    cout << result << endl;
   }
 }
